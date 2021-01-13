@@ -17,4 +17,4 @@ app.use(
 app.get("/", (req, res) => res.send("App is running with Graphql"));
 
 const PORT = 8080;
-app.listen(PORT, () => `APP is up and running in port ${PORT}`);
+app.listen(PORT, () => console.log(`APP is up and running on port ${PORT}`));
